@@ -1,0 +1,1 @@
+for t in 4 8 16 32 64 128 1024 2048 ; do for s in maxscale_4006 maxscale_4008 proxysql ; do ./sysbench --num-threads=$t --max-time=30 --max-requests=0 --test=./lua/oltp_point_select.lua --mysql-user=sbtest --mysql-password=sbtest --oltp-table-size=10000000 --oltp-tables-count=8 --report-interval=1 run --mysql-socket=/tmp/$s.sock > results_1/thr"$t"_"$s".txt ; done ; done

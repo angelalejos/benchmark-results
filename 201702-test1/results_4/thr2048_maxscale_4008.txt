@@ -1,0 +1,98 @@
+sysbench 1.0 (using bundled LuaJIT 2.1.0-beta2)
+
+Running the test with following options:
+Number of threads: 2048
+Report intermediate results every 1 second(s)
+Initializing random number generator from current time
+
+
+Initializing worker threads...
+
+Threads started!
+
+[   1s] threads: 2048 tps: 143751.80 qps: 143753.75 (r/w/o: 143753.75/0.00/0.00) latency: 15.83ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[   2s] threads: 2048 tps: 149057.67 qps: 149057.67 (r/w/o: 149057.67/0.00/0.00) latency: 14.46ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[   3s] threads: 2048 tps: 146995.19 qps: 146995.19 (r/w/o: 146995.19/0.00/0.00) latency: 14.73ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[   4s] threads: 2048 tps: 149644.27 qps: 149642.27 (r/w/o: 149642.27/0.00/0.00) latency: 14.73ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[   5s] threads: 2048 tps: 145640.01 qps: 145808.01 (r/w/o: 145808.01/0.00/0.00) latency: 14.73ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[   6s] threads: 2048 tps: 149969.47 qps: 149801.47 (r/w/o: 149801.47/0.00/0.00) latency: 15.00ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[   7s] threads: 2048 tps: 145454.92 qps: 145459.92 (r/w/o: 145459.92/0.00/0.00) latency: 15.00ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[   8s] threads: 2048 tps: 145387.87 qps: 145384.87 (r/w/o: 145384.87/0.00/0.00) latency: 15.00ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[   9s] threads: 2048 tps: 148825.24 qps: 148823.24 (r/w/o: 148823.24/0.00/0.00) latency: 14.46ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  10s] threads: 2048 tps: 147789.00 qps: 147790.00 (r/w/o: 147790.00/0.00/0.00) latency: 14.73ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  11s] threads: 2048 tps: 149895.03 qps: 149895.03 (r/w/o: 149895.03/0.00/0.00) latency: 14.73ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  12s] threads: 2048 tps: 149418.88 qps: 149419.88 (r/w/o: 149419.88/0.00/0.00) latency: 14.46ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  13s] threads: 2048 tps: 151706.13 qps: 151706.13 (r/w/o: 151706.13/0.00/0.00) latency: 14.46ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  14s] threads: 2048 tps: 148002.97 qps: 148000.97 (r/w/o: 148000.97/0.00/0.00) latency: 14.46ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  15s] threads: 2048 tps: 150033.86 qps: 150036.86 (r/w/o: 150036.86/0.00/0.00) latency: 14.46ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  16s] threads: 2048 tps: 149384.62 qps: 149383.62 (r/w/o: 149383.62/0.00/0.00) latency: 15.00ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  17s] threads: 2048 tps: 147152.11 qps: 147150.11 (r/w/o: 147150.11/0.00/0.00) latency: 15.27ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  18s] threads: 2048 tps: 147810.32 qps: 147810.32 (r/w/o: 147810.32/0.00/0.00) latency: 15.55ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  19s] threads: 2048 tps: 142105.00 qps: 142106.00 (r/w/o: 142106.00/0.00/0.00) latency: 16.41ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  20s] threads: 2048 tps: 143806.09 qps: 143807.09 (r/w/o: 143807.09/0.00/0.00) latency: 15.83ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  21s] threads: 2048 tps: 127842.08 qps: 127841.08 (r/w/o: 127841.08/0.00/0.00) latency: 17.63ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  22s] threads: 2048 tps: 124783.15 qps: 124782.15 (r/w/o: 124782.15/0.00/0.00) latency: 17.32ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  23s] threads: 2048 tps: 124840.73 qps: 124842.73 (r/w/o: 124842.73/0.00/0.00) latency: 17.01ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  24s] threads: 2048 tps: 125130.93 qps: 125128.93 (r/w/o: 125128.93/0.00/0.00) latency: 17.01ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  25s] threads: 2048 tps: 124940.15 qps: 124941.15 (r/w/o: 124941.15/0.00/0.00) latency: 17.01ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  26s] threads: 2048 tps: 126533.88 qps: 126532.88 (r/w/o: 126532.88/0.00/0.00) latency: 17.32ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  27s] threads: 2048 tps: 126598.98 qps: 126600.98 (r/w/o: 126600.98/0.00/0.00) latency: 17.01ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  28s] threads: 2048 tps: 126210.13 qps: 126209.13 (r/w/o: 126209.13/0.00/0.00) latency: 17.01ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  29s] threads: 2048 tps: 131931.98 qps: 131931.98 (r/w/o: 131931.98/0.00/0.00) latency: 17.01ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  30s] threads: 2048 tps: 145530.87 qps: 145531.87 (r/w/o: 145531.87/0.00/0.00) latency: 15.27ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  31s] threads: 2048 tps: 145454.12 qps: 145453.12 (r/w/o: 145453.12/0.00/0.00) latency: 15.83ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  32s] threads: 2048 tps: 150521.91 qps: 150521.91 (r/w/o: 150521.91/0.00/0.00) latency: 14.73ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  33s] threads: 2048 tps: 151969.75 qps: 151969.75 (r/w/o: 151969.75/0.00/0.00) latency: 14.46ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  34s] threads: 2048 tps: 152202.24 qps: 152202.24 (r/w/o: 152202.24/0.00/0.00) latency: 14.46ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  35s] threads: 2048 tps: 146913.10 qps: 146912.10 (r/w/o: 146912.10/0.00/0.00) latency: 15.27ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  36s] threads: 2048 tps: 144667.84 qps: 144667.84 (r/w/o: 144667.84/0.00/0.00) latency: 15.00ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  37s] threads: 2048 tps: 148321.87 qps: 148321.87 (r/w/o: 148321.87/0.00/0.00) latency: 15.00ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  38s] threads: 2048 tps: 153506.13 qps: 153507.13 (r/w/o: 153507.13/0.00/0.00) latency: 14.73ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  39s] threads: 2048 tps: 147503.15 qps: 147503.15 (r/w/o: 147503.15/0.00/0.00) latency: 15.55ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  40s] threads: 2048 tps: 143926.78 qps: 143925.78 (r/w/o: 143925.78/0.00/0.00) latency: 16.12ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  41s] threads: 2048 tps: 130113.13 qps: 130115.13 (r/w/o: 130115.13/0.00/0.00) latency: 16.71ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  42s] threads: 2048 tps: 130526.06 qps: 130524.06 (r/w/o: 130524.06/0.00/0.00) latency: 16.71ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  43s] threads: 2048 tps: 129816.81 qps: 129818.81 (r/w/o: 129818.81/0.00/0.00) latency: 16.41ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  44s] threads: 2048 tps: 130616.19 qps: 130615.19 (r/w/o: 130615.19/0.00/0.00) latency: 16.12ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  45s] threads: 2048 tps: 130031.93 qps: 130030.93 (r/w/o: 130030.93/0.00/0.00) latency: 16.41ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  46s] threads: 2048 tps: 131481.85 qps: 131481.85 (r/w/o: 131481.85/0.00/0.00) latency: 16.12ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  47s] threads: 2048 tps: 132506.05 qps: 132507.05 (r/w/o: 132507.05/0.00/0.00) latency: 16.12ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  48s] threads: 2048 tps: 131968.92 qps: 131967.92 (r/w/o: 131967.92/0.00/0.00) latency: 16.41ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  49s] threads: 2048 tps: 132819.63 qps: 132820.63 (r/w/o: 132820.63/0.00/0.00) latency: 16.12ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  50s] threads: 2048 tps: 132145.51 qps: 132144.51 (r/w/o: 132144.51/0.00/0.00) latency: 16.12ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  51s] threads: 2048 tps: 137531.72 qps: 137531.72 (r/w/o: 137531.72/0.00/0.00) latency: 16.12ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  52s] threads: 2048 tps: 147488.52 qps: 147488.52 (r/w/o: 147488.52/0.00/0.00) latency: 15.55ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  53s] threads: 2048 tps: 133894.04 qps: 133895.04 (r/w/o: 133895.04/0.00/0.00) latency: 16.12ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  54s] threads: 2048 tps: 133518.93 qps: 133517.93 (r/w/o: 133517.93/0.00/0.00) latency: 16.12ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  55s] threads: 2048 tps: 134395.95 qps: 134395.95 (r/w/o: 134395.95/0.00/0.00) latency: 16.12ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  56s] threads: 2048 tps: 131954.15 qps: 131954.15 (r/w/o: 131954.15/0.00/0.00) latency: 16.12ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  57s] threads: 2048 tps: 132250.89 qps: 132250.89 (r/w/o: 132250.89/0.00/0.00) latency: 16.12ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  58s] threads: 2048 tps: 133430.97 qps: 133432.97 (r/w/o: 133432.97/0.00/0.00) latency: 16.12ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  59s] threads: 2048 tps: 133867.96 qps: 133866.96 (r/w/o: 133866.96/0.00/0.00) latency: 16.12ms (95%) errors/s: 0.00 reconnects/s: 0.00
+[  60s] threads: 2048 tps: 130267.32 qps: 130266.32 (r/w/o: 130266.32/0.00/0.00) latency: 16.12ms (95%) errors/s: 0.00 reconnects/s: 0.00
+OLTP test statistics:
+    queries performed:
+        read:                            8386810
+        write:                           0
+        other:                           0
+        total:                           8386810
+    transactions:                        8386810 (139301.03 per sec.)
+    queries:                             8386810 (139301.03 per sec.)
+    ignored errors:                      0      (0.00 per sec.)
+    reconnects:                          0      (0.00 per sec.)
+
+General statistics:
+    total time:                          60.2067s
+    total number of events:              8386810
+    total time taken by event execution: 122978.5079s
+
+Latency statistics:
+         min:                                  0.16ms
+         avg:                                 14.66ms
+         max:                                259.53ms
+         approx.  95th percentile:            16.41ms
+
+Threads fairness:
+    events (avg/stddev):           4095.1221/43.56
+    execution time (avg/stddev):   60.0481/0.05
+

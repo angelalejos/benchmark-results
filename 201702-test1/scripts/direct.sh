@@ -1,0 +1,1 @@
+for t in 4 8 16 32 64 128 256 1024 2048 ; do ./sysbench --num-threads=$t --max-time=60 --max-requests=0 --test=./lua/oltp_point_select.lua --mysql-user=sbtest --mysql-password=sbtest --oltp-table-size=10000000 --oltp-tables-count=8 --report-interval=1 run --mysql-port=5717 --mysql-host=10.11.12.39,10.11.12.35 > results_direct/thr"$t"_direct.txt ; done
